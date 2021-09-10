@@ -6,37 +6,37 @@ input_values = [
     # Test case 1
     (
         # Inputs
-        ["25", "34", "0", "20", "-7"],
+        ["0.5", "5"],
         # Outputs
-        ["Número: ", "Número: ","Número: ", "Número: ","Número: ", "Tecleaste 3 múltiplos de 5"],
+        ["Km primer día: ", "Km meta: ", "Días de entrenamiento que faltan: 25"],
         # Message in case of failure
-        "Revisa que estes identificando y contabilizando bien los múltiplos de 5"
+        "Revisa que estés aumentando el 10% de lo que corres el día anterior y no olvides contabilizar los días"
     ),
     # Test case 2
     (
-       # Inputs
-        ["12", "34", "1", "-1"],
+        # Inputs
+        ["0.25", "5"],
         # Outputs
-        ["Número: ", "Número: ","Número: ", "Número: ", "Tecleaste 0 múltiplos de 5"],
+        ["Km primer día: ", "Km meta: ", "Días de entrenamiento que faltan: 32"],
         # Message in case of failure
-        "Revisa que estes identificando y contabilizando bien los múltiplos de 5"
+        "Revisa que estés aumentando el 10% de lo que corres el día anterior y no olvides contabilizar los días"
     ),
     # Test case 3
     (
         # Inputs
-        ["-100"],
+        ["0.7", "10"],
         # Outputs
-        ["Número: ", "Tecleaste 0 múltiplos de 5"],
+        ["Km primer día: ", "Km meta: ", "Días de entrenamiento que faltan: 28"],
         # Message in case of failure
-        "Revisa que estes identificando y contabilizando bien los múltiplos de 5"
+        "Revisa que estés aumentando el 10% de lo que corres el día anterior y no olvides contabilizar los días"
     ),
     # Test case 4
     (
         # Inputs
-        ["0", "-100"],
+        ["1.2", "42"],
         # Outputs
-        ["Número: ", "Número: ", "Tecleaste 1 múltiplos de 5"],
+        ["Km primer día: ", "Km meta: ", "Días de entrenamiento que faltan: 38"],
         # Message in case of failure
-        "Revisa que estes calculando bien todos los casos"
+        "Revisa que estés aumentando el 10% de lo que corres el día anterior y no olvides contabilizar los días"
     )
 ]

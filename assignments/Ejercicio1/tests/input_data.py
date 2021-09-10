@@ -4,20 +4,20 @@
 input_values = [
     # Test case 1
     (
-    ["280"],
-    ["Cantidad de KW: ","La factura de este mes es por 650"],
+    ["4"],
+    ["Cantidad de GB: ","La factura de este mes es por 230.0"],
     ["Revisa los ejemplos y la tabla"]
     ),
     # Test case 2
     (
-    ["80"],
-    ["Cantidad de KW: ","La factura de este mes es por 0"],
+    ["1.2"],
+    ["Cantidad de GB: ","La factura de este mes es por 0"],
     ["Revisa los ejemplos y la tabla"]
     ),
     # Test case 3
     (
-    ["400"],
-    ["Cantidad de KW: ","La factura de este mes es por 1550"],
+    ["8"],
+    ["Cantidad de GB: ","La factura de este mes es por 1020.0"],
     ["Revisa los ejemplos y la tabla"]
     )
 ]

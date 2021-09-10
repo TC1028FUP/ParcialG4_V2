@@ -1,9 +1,11 @@
 ![Tec de Monterrey](../../images/logotecmty.png)
 # Ejercicio 2 del examen parcial AD2021
-Ciclos - Cuántos números múltiplos de 5 nos da un usuario
+Ciclos while - Preparándote para correr
 
-Escribe un programa que reciba números positivos (considera el 0 como positivo) y vaya contando aquellos números que son múltiplos de 5. El programa deberá dejar de recibir números hasta que el usuario ingrese algún número negativo, al suceder esto, debe mostrar el mensaje de cuántos múltiplos de 5 recibió.
+Te estás preparando para una carrera, hace mucho que no corres y necesitas aumentar poco a poco la distancia que corres en tus prácticas. 
+Dado que el primer día corres *X* cantidad de kilómetros y para la carrera debes poder correr *Y* cantidad de kilometros, calcula con un programa el número de días necesarios para que finalmente alcances la distancia que vas a correr en la carrera, considerando que tu entrenamiento consiste en aumentar la distancia que corres cada día en un 10% con respecto al día anterior. Se requiere que el programa calcule e imprima un número entero que represente el número de días que faltan para alcanzar la distancia requerida.
 
+**TIP:** Debes recibir del usuario la cantidad de km que corriste el primer día de práctica, además de la cantidad de km que vas a correr en la carrera. Recuerda que cada día deberás correr un **10% más que el anterior** (eso es lo que incrementas cada día) y la meta es llegar a correr los km de la carrera o más y el objetivo es calcular los días que te tomará llegar a correr esa distancia. 
 
 Modifica el programa que se encuentra en la carpeta `src` que se llama
 `exercise.py` y que contiene el siguiente código:
@@ -11,23 +13,27 @@ Modifica el programa que se encuentra en la carpeta `src` que se llama
 ```python
 def main():
     #escribe todo tu código abajo de esta línea, no es necesario una función
+    
 
 if __name__ == '__main__':
     main()
 ```
 
-Ejemplo de corrida:
+**Ejemplo de corrida:**
 
 ```
-Número: 2
-Número: 5
-Número: 0
-Número: 12
-Número: 150
-Número: -1
-Tecleaste 3 múltiplos de 5
+Km primer día: 0.7
+Km meta: 10
+Días de entrenamiento que faltan: 28
 ```
 
+**Otro ejemplo de corrida:**
+
+```
+Km primer día: 0.5
+Km meta: 5
+Días de entrenamiento que faltan: 25
+```
 
 **Nota:** Por favor no quites nada de lo que ya tienes, simplemente agrega el código 
 necesario dentro de la función main. 
