@@ -30,7 +30,7 @@ Así por ejemplo, si en una celular consumen 1.5 GB, la factura es por 0 pesos.
 Otro ejemplo, si en un celular se consumen 2.5 GB
 - por los primeros 2 no se paga nada
 - por el 0.5 restantes se paga 57.5 pesos (115 * 0.5)
-- En total se paga 115
+- En total se paga 57.5
 
 Otro ejemplo si en un celular se consumieron 7.5 GB el monto de la factura se calcula:
 - Por los primeros 2 no se paga nada
